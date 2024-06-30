@@ -1,0 +1,17 @@
+[
+  {
+    "username": "alison_broadcaster",
+    "password": "alison",
+    "valid": true
+  },
+  {
+    "username": "",
+    "password": "alison",
+    "valid": false
+  },
+  {
+    "username": "alison_broadcaster",
+    "password": "",
+    "valid": false
+  }
+]
