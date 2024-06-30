@@ -67,7 +67,7 @@ describe("Login Page Tests", () => {
     myAccountPage.errorMessage().should("be.visible");
   });
 
-  it.only("should not be able to login using incorrect password USING intercept", () => {
+  it("should not be able to login using incorrect password USING intercept", () => {
     visitBaseUrlAndCloseModals();
 
     const loginPage = getLoginPage();

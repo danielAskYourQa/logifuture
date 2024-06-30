@@ -7,6 +7,8 @@
     "commit": "npx git-cz",
     "cypress:open:default": "CYPRESS_API_URL_ENV=base npx cypress open",
     "cypress:open:staging": "CYPRESS_API_URL_ENV=staging npx cypress open",
+    "cypress:run:default": "CYPRESS_API_URL_ENV=base npx cypress run",
+    "cypress:run:staging": "CYPRESS_API_URL_ENV=staging npx cypress run",
     "cypress:run": "cypress run",
     "lint:fix": "npm run lint -- --fix",
     "lint": "eslint --ext .ts,.tsx",
