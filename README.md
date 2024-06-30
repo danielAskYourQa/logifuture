@@ -20,8 +20,6 @@ Hi there! 👋 🙂
 
 1. Execute `npm run cypress:open` to launch
    [Cypress.io](https://www.cypress.io/).
-2. You will be testing one of our staging environments:
-   https://cypress-test.eplay.com
 
 ## 📂 Directory Structure
 
