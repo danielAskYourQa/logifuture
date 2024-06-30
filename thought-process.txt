@@ -1,0 +1,7 @@
+1. You guys did not provide any links/environments/pages etc .... so I searched for some similar sites that would act as the staging and non-staging enviroments. 
+It was not that clear the re-direct process... I could not really find one site with re-direct..... non-theless ... I opted for maintaing the essence of the exercise ... beeing that it would use two separate environemtns with different locators etc and to handle transaitions between the two of them.
+Instead of doing one/or/the other exercise I combined the two as :
+    - The same login tests should work for two totally different sites (staging and non-staging) using the same code-base(method) to run tests
+    - I would have switched to env. files but did not have the time to, nor did I need to in this exercise
+    - I would use data providers ... json fixtures ... did not need to 
+    - Of course there were more tests cases for login (invalid maiL+ valid pass, missing mail+  valid pass, valid emai + missing password) .... etc, I did not consider that it was relevant for the scope of this exercise since I made exercise1 and exercise2 to work as one .    
